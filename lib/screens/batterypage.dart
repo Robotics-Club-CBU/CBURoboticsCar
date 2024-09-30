@@ -22,7 +22,7 @@ class BatteryManagementPage extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(height: 20),
-              BatteryLevelIndicator(percentage: 32),
+              const BatteryLevelIndicator(percentage: 32),
               const SizedBox(height: 40),
               GridView.count(
                 shrinkWrap: true,

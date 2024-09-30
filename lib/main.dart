@@ -4,7 +4,7 @@ import './screens/homepage.dart'; // Ensure this file contains the HomePage clas
 import './screens/batterypage.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black,
           duration: 3100,
         ),        
-        '/battery': (context) => BatteryManagementPage(),
+        '/battery': (context) => const BatteryManagementPage(),
       },
     );
   }

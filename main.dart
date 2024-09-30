@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -20,13 +20,13 @@ class MyApp extends StatelessWidget {
             onPressed: () {},
           ),
         ),
-        body: Padding(
-          padding: const EdgeInsets.all(16.0),
+        body: const Padding(
+          padding: EdgeInsets.all(16.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               // Title Section
-              const Text(
+              Text(
                 'OVERVIEW',
                 style: TextStyle(
                   fontSize: 24,
@@ -34,15 +34,15 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-              const SizedBox(height: 8),
-              const Text(
+              SizedBox(height: 8),
+              Text(
                 'Mafishi 2.0',
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.black,
                 ),
               ),
-              const SizedBox(height: 20),
+              SizedBox(height: 20),
               
               // Button Section (Top row with icons)
               Row(
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               
-              const SizedBox(height: 16),
+              SizedBox(height: 16),
               
               // Button Section (Arrow buttons)
               Row(
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               
-              const SizedBox(height: 20),
+              SizedBox(height: 20),
               
               // Speed and Battery Section
               Row(

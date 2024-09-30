@@ -16,9 +16,9 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.of(context).pushReplacementNamed('/overview');
     });
   }
-
+f
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {I
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       body: Center(
